@@ -1,9 +1,9 @@
 {
-  "name": "Median",
-  "description": "Return the medium value of a cell",
+  "name": "IQR (interquartile range)",
+  "description": "Returns the interquartile range of a cell",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_operator"],
+  "urls": ["https://github.com/tercen/IQR_operator"],
   "properties": []
 }
 
