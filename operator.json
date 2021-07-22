@@ -1,6 +1,6 @@
 {
-  "name": "IQR (interquartile range)",
-  "description": "Returns the interquartile range of a cell",
+  "name": "IQR",
+  "description": "Interquartile Range: Calculates whether the value of a cell falls within the middle 50% of the distriubution range.",
   "tags": ["basic statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/IQR_operator"],
