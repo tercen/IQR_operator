@@ -7,7 +7,9 @@ iqr <- function(y) {
   return(iqr)
 }
 
-(ctx = tercenCtx())  %>% 
+ctx <- tercenCtx()
+
+ctx  %>% 
   select(.y, .ci, .ri) %>% 
   group_by(.ci, .ri) %>%
   summarise(iqr = iqr(.y)) %>%
