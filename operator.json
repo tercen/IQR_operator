@@ -1,6 +1,6 @@
 {
   "name": "IQR",
-  "description": "Interquartile Range: Calculates whether the value of a cell falls within the middle 50% of the distriubution range.",
+  "description": "Computes the Interquartile Range, corresponding to the middle 50% of a distribution range.",
   "tags": [
     "descriptive statistics"
   ],
