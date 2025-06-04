@@ -18,35 +18,14 @@
     "inputSpecs": [
       {
         "kind": "CrosstabSpec",
-        "metaFactors": [
-          {
-            "kind": "MetaFactor",
-            "name": "Variable",
-            "type": "",
-            "description": "Variable identifiers (channel, marker, gene, ...)",
-            "ontologyMapping": "variable",
-            "crosstabMapping": "row",
-            "cardinality": "1..n",
-            "factors": []
-          },
-          {
-            "kind": "MetaFactor",
-            "name": "Observation",
-            "type": "",
-            "description": "Observation identifiers (event ID, sample ID, ...)",
-            "ontologyMapping": "observation",
-            "crosstabMapping": "column",
-            "cardinality": "1..n",
-            "factors": []
-          }
-        ],
+        "metaFactors": [],
         "axis": [
           {
             "kind": "AxisSpec",
             "metaFactors": [
               {
                 "kind": "MetaFactor",
-                "name": "Y Axis",
+                "name": "Measurement",
                 "type": "numeric",
                 "description": "numeric, input data, per cell",
                 "ontologyMapping": "y-axis",
